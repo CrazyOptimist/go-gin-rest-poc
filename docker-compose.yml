@@ -1,0 +1,8 @@
+version: "3"
+services: 
+  go_server:
+    build: .
+    container_name: go_server
+    ports: 
+      - "8080:8080"
+    restart: always
