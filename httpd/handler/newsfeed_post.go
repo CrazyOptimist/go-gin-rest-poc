@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/crazyoptimist/go-gin-rest-poc/platform/newsfeed"
+	"github.com/crazyoptimist/go-gin-rest-poc/services/newsfeed"
 	"github.com/gin-gonic/gin"
 )
 

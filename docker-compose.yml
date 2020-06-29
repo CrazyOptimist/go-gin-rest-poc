@@ -5,5 +5,5 @@ services:
     container_name: go_server
     ports: 
       - "8080:8080"
-    command: sh -c "cd /go/src/app && go run main.go"
+    command: sh -c "cd /go/src/app/httpd && go run main.go"
     restart: always
